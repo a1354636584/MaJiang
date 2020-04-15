@@ -23,11 +23,11 @@ namespace LYFrame
             gameObject.AddComponent<ModelManager>();
 
             //gameObject.AddComponent<CharaterManager>();
-            //gameObject.AddComponent<NetManager>();
+            gameObject.AddComponent<NetManager>();
             //gameObject.AddComponent<AssetManager>();
             //gameObject.AddComponent<NaticeResLoader>();
             //gameObject.AddComponent<ILoadManager>();PartManager
-            gameObject.AddComponent<CameraManager>();
+            //gameObject.AddComponent<CameraManager>();
 
             DontDestroyOnLoad(gameObject);
         }
